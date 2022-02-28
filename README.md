@@ -26,4 +26,6 @@ You'll start with the app not showing any data
 
 ### Task 4: Show appointment details on top navigation when clicking on an appointment
 
+### Task 5: Modify the appointments API to sort by date in a descending order then by broker id in ascending order
+
 ### Optional task: complete unit test in ./app/src/components/AppointmentSelect/Broker
