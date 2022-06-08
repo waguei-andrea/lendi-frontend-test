@@ -3,13 +3,14 @@ import styled from "styled-components";
 
 import Broker from "./Broker";
 
-const Wrapper = styled.div`
-  display: flex;
-`;
+const Wrapper = styled.div``;
 
+// TODO: make AppointmentDetail next to SideBarr
 const SideBar = styled.div`
   width: 250px;
 `;
+
+const AppointmentDetail = styled.div``;
 
 const Heading = styled.strong.attrs({ role: "heading", level: 2 })`
   display: block;
@@ -23,28 +24,21 @@ type BrokerAppointments = {
 }[];
 
 const AppointmentSelect = () => {
-  axios
-    .get("http://localhost:8080/brokers")
-    .then(({ data }) => console.log(data));
-  axios
-    .get("http://localhost:8080/appointments")
-    .then(({ data }) => console.log(data));
-
   return (
     <Wrapper>
       <SideBar>
-        <Heading>Amazing site</Heading>
-        TODO: populate brokers
+        <Heading>Sidebar</Heading>
+        {/* TODO: populate brokers */}
         <ul>
           {/* {brokerAppointments.map((broker) => (
-            <Broker key={broker.id} broker={broker} />
+            <Broker broker={broker} />
           ))} */}
         </ul>
       </SideBar>
-      <div>
+      <AppointmentDetail>
         <Heading>Appointment details</Heading>
-        TODO: get appointment details when clicking on one from the left side
-      </div>
+        {/* TODO: get appointment details when clicking on one from the left side */}
+      </AppointmentDetail>
     </Wrapper>
   );
 };

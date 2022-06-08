@@ -13,19 +13,27 @@ Then you want to start the app
 
 cd ./app && yarn && yarn start
 
-
 ## The test
 
-You'll start with the app not showing any data 
+You'll start with the app not showing any data
 
-### Task 1: Populate the site with brokers and appointments
+### Task 1: Populate the site with brokers and appointments, and show the appointment which is grouped by brokers on the side bar
 
-### Task 2: Add logic for colapsing/expanding broker appointments
+You will be able to call the two API to get brokers and appointments data when you start the service.
+http://localhost:8080/brokers
+http://localhost:8080/appointments
+ps. you can use axios library to get the data which is pre-install in this project.
 
-### Task 3: Show appointment details on right hand side when clicking on an appointment
+### Task 2: Show appointment details on right hand side when clicking on an appointment
 
-### Task 4: Show appointment details on top navigation when clicking on an appointment
+### Task 3: Show appointment details on top navigation when clicking on an appointment
 
-### Task 5: Modify the appointments API to sort by date in a descending order then by broker id in ascending order
+### Task 4: Fix the bad practice (Broker.tsx)
 
-### Optional task: complete unit test in ./app/src/components/AppointmentSelect/Broker
+### Task 5: use the correct semantic tag (Broker.tsx)
+
+### Task 6: Make AppointmentDetail next to SideBar (AppointmentSelect.tsx)
+
+### Task 7: Modify the appointments API to sort by date in a descending order then by broker id in ascending order
+
+### Task 8: Complete unit test in ./app/src/components/AppointmentSelect/Broker
