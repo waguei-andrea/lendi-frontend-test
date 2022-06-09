@@ -5,7 +5,7 @@ import Broker from "./Broker";
 
 const Wrapper = styled.div``;
 
-// TODO: make AppointmentDetail next to SideBarr
+// TODO: Add AppointmentDetail next to SideBar
 const SideBar = styled.div`
   width: 250px;
 `;
@@ -37,7 +37,7 @@ const AppointmentSelect = () => {
       </SideBar>
       <AppointmentDetail>
         <Heading>Appointment details</Heading>
-        {/* TODO: get appointment details when clicking on one from the left side */}
+        {/* TODO: Get appointment details when clicking on one from the left side */}
       </AppointmentDetail>
     </Wrapper>
   );
