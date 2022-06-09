@@ -1,3 +1,8 @@
+## Welcome to the Lendi Frontend Pairing Test
+This test is to be completed during a pairing session with one of our Frontend engineers. The goal is to understand how you approach problems, collaborate, and communicate similar to how you do normally on a day-to-day basis. 
+
+Please do not complete these tasks ahead of the pairing session, but instead use this time to read through and familiarise yourself with the code and tasks prior to meeting with us. If you have any questions about the test or any of these tasks feel free to ask for clarification.
+
 ## Info
 
 ./services is the backend API
@@ -39,11 +44,11 @@ You'll start with the app not showing any data
 
 ![Screenshot](task1-4.png)
 
-#### Task 5: Fix the bad practice (Broker.tsx)
+#### Task 5: Refactor implementation to address bad practice (Broker.tsx)
 
-#### Task 6: use the correct semantic tag (Broker.tsx)
+#### Task 6: Update to use the correct semantic tag (Broker.tsx)
 
-#### Task 7: Make AppointmentDetail next to SideBar (AppointmentSelect.tsx)
+#### Task 7: Update AppointmentDetail to be displayed next to SideBar (AppointmentSelect.tsx)
 
 ![Screenshot](task7.png)
 
