@@ -1,5 +1,5 @@
 ## Welcome to the Lendi Frontend Pairing Test
-This test is to be completed during a pairing session with one of our Frontend engineers. The goal is to understand how you approach problems, collaborate, and communicate similar to how you do normally on a day-to-day basis. 
+This test is to be completed during a pairing session with one of our Frontend engineers. The goal is to understand how you approach problems, collaborate, and communicate similar to how you do normally on a day-to-day basis. You may not have time to complete all the tasks during the session, which is completely fine.
 
 Please do not complete these tasks ahead of the pairing session, but instead use this time to read through and familiarise yourself with the code and tasks prior to meeting with us. If you have any questions about the test or any of these tasks feel free to ask for clarification.
 
