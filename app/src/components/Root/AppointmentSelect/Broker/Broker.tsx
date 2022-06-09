@@ -17,12 +17,12 @@ const AppointmentList = styled.ul<{ isExpanded: boolean }>`
 const Broker = (broker: BrokerProps) => {
   const [showAppointments, setShowAppointments] = useState(false);
   const onToggle = () => {
-    // TODO: correct it with the better way.
+    // TODO: Refactor to use better practice
     setShowAppointments(!showAppointments);
   };
 
   return (
-    // TODO: use the correct semantic tag
+    // TODO: Update to use the correct semantic tag
     <span>
       <button
         onClick={onToggle}
