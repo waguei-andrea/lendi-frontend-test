@@ -25,8 +25,6 @@ Then start the app
 You'll start with the app not showing any data
 ![Screenshot](initial.png)
 
-#### Task 1: Populate the site with brokers and appointments, and show the appointment which is grouped by brokers on the sidebar
-
 - You will be able to call the two APIs to get the brokers and the appointments data when you start the service.
 
 - http://localhost:8080/brokers
@@ -35,25 +33,29 @@ You'll start with the app not showing any data
 
 - ps. you can use axios library to get the data which is pre-install in this project.
 
-#### Task 2: Show the broker name in the order from A to Z on the sidebar
+#### Task 1: Show all the brokers' names on the sidebar
 
-#### Task 3: Show appointment details on right hand side when clicking on an appointment
+#### Task 2: Show all the brokers' appointment dates under brokers' names
 
-#### Task 4: Show appointment details on top navigation when clicking on an appointment
+#### Task 3: Show the broker name alphabetically (A to Z) on the sidebar
 
-- This is the example when you finish task 1 - 4:
+#### Task 4: Show appointment details (Appoint ID, Broker Name, Date) on the `Appointment details` section when clicking on the appointment date
+
+#### Task 5: Show appointment details on top navigation when clicking on an appointment
+
+- This is the example when you finish task 1 - 5:
 
 ![Screenshot](task1-4.png)
 
-#### Task 5: Refactor implementation to address bad practice (Broker.tsx)
+#### Task 6: Refactor implementation to address bad practice (Broker.tsx)
 
-#### Task 6: Update to use the correct semantic tag (Broker.tsx)
+#### Task 7: Update to use the correct semantic tag (Broker.tsx)
 
-#### Task 7: Update AppointmentDetail to be displayed next to SideBar (AppointmentSelect.tsx)
+#### Task 8: Update AppointmentDetail to be displayed next to SideBar (AppointmentSelect.tsx)
 
 ![Screenshot](task7.png)
 
-#### Task 8: Complete unit test in ./app/src/components/AppointmentSelect/Broker
+#### Task 9: Complete unit test in ./app/src/components/AppointmentSelect/Broker
 
 #### Bonus
 
